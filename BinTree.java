@@ -18,7 +18,10 @@ public class BinTree{
 	}
 	private BinTree buildByFM(Node root,String DLR,String LDR,char Separator)
 	{
-	
+		//example pre  1 2 4 7 8 10 12 5 3 6 9 11
+		//example mid  7 4 2 1 3 9 11 6 5 8 12 10
+		//example suf  7 12 10 8 4 5 2 11 9 6 3 1
+		int root 
 	}
 	
 	private BinTree buildByFR(Node root,String DLR,String LRD,char Separator)
