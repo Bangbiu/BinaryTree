@@ -2,6 +2,7 @@ public class BinTree{
 	public Node root;
 	public BinTree buildTree(Node root,String DLR,String LDR,String LRD)
 	{
+		
 		return buildTree(root,DLR,LDR,LRD,",");
 	}
 	public BinTree buildTree(Node root,String DLR,String LDR,String LRD,char Separator)
@@ -52,5 +53,4 @@ public class BinTree{
 	{
 		
 	}
-	
 }
