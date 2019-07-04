@@ -3,6 +3,7 @@ public class Node{
 	Node leftNode;
 	Node rightNode;
 	String name;
+	
 	public Node(){
 		name="";
 	}
